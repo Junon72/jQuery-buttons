@@ -20,7 +20,13 @@ Interactive Frontend Development - From JavaScript to jQuery
 
 5.  Made the panels backgound color change black and back to original when mouse pointer hovers over them
 
-### Challenge - 2
+### Challenge - 2 can be found in [jQueryTable](https://github.com/Junon72/jQuery-table)
+
+1. Changed the text in the reset button to display the color (RGB) of the selected panel
+
+
+
+
 
 
 

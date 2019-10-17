@@ -8,6 +8,8 @@ $(document).ready(function () {
       $(this).hide();
     });
    */
+
+    /* removed for the Traversing Challenge - 3
     $('.theButton').click(function () {
         $('.container').siblings().fadeTo('slow', 0.1);
     });
@@ -17,9 +19,9 @@ $(document).ready(function () {
         $('.container').siblings().fadeTo('slow', 1);
     });
 
-
+    
     $('.theButton').hover(function () {
-        $(this).toggleClass('makeBlack');
+        $(this).toggleClass('makeBlack'); 
 
         /*  Tried to do the hover effect only using js, did not work that well, not sure why...
         $(this).css('background-color', '#000');
@@ -36,7 +38,12 @@ $(document).ready(function () {
         $('.theButton').mouseout(function() {
             $(this).addClass('makeBlack');
         });
-        */
+        
+    });*/
+    /* Traversing Challenge - 3 */
+    $('.theButton').click(function(){
+        var color = $(this).css('background-color');
+        $('.superButton').text(color);
     });
 
 });
