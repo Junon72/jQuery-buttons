@@ -21,7 +21,7 @@ $(document).ready(function () {
     $('.theButton').hover(function () {
         $(this).toggleClass('makeBlack');
 
-        /*  Tried to do the hover effect only using js, did not work that well, not rue why...
+        /*  Tried to do the hover effect only using js, did not work that well, not sure why...
         $(this).css('background-color', '#000');
             }, function() {
         var classNames = $(this).attr('class').split(' ');
